@@ -7,6 +7,8 @@
 
 
 
+
+
 .btn-primary {
     color: #fff;
     background-color: var(--purple-color);
@@ -126,4 +128,45 @@
     .desktop {
         display: initial;
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*banner*/
+
+.left-promo {
+    margin-top: 20px;
+    background-image: url(../img/fondo.jpg);
+}
+
+.agenda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-promo{
+    margin-top: 20px;
+    background-color: rgb(117, 41, 149);
+    text-align: center;
+}
+
+#gratis{
+    color:rgb(255, 255, 255);
+}
+
+#gratis img{
+    border-radius: 150px;
+    border: 7px solid rgb(0, 0, 0);
 }
