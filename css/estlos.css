@@ -1,0 +1,129 @@
+:root {
+    --purple-color: #752996;
+    --blue-color: #00B2D1;
+
+}
+
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--purple-color);
+    border-color: rgb(255, 252, 252);
+}
+
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #69cddf;
+    border-color: rgb(255, 252, 252);
+}
+
+.btn-outline-primary {
+    color: #fff;
+    background-color: var(--blue-color);
+    border-color: rgb(255, 252, 252);
+}
+
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #9b50bb;
+    border-color: rgb(255, 252, 252);
+}
+
+.logoo {
+    max-width: 325px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Estilos Navbar*/
+.navbar {
+    --bs-bg-opacity: 1;
+    background-color: var(--purple-color) !important;
+    color: rgba(221, 0, 0, 0.863)
+}
+
+.nav-item a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+    color: var(--blue-color);
+}
+
+.nav-link.active {
+    font-weight: 500;
+    color: #FFF;
+}
+
+.dropdown-menu {
+    background-color: #C39ED0;
+}
+
+.dropdown-menu a {
+    color: var(--purple-color);
+}
+
+
+
+.btn-outline-success {
+    color: white;
+    border-color: var(--blue-color);
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: var(--blue-color);
+    border-color: white;
+}
+
+
+.navbar-toggler-icon svg {
+
+    background-image: url(../img/Vector.png);
+    color: #00B2D1;
+}
+
+.navbar-toggler:focus {
+    color: rgba(255, 0, 0, 0);
+    border-color: rgba(255, 0, 0, 0);
+}
+
+.desktop {
+    display: none;
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: initial;
+    }
+}
