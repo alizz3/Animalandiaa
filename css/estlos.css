@@ -147,6 +147,8 @@
 .footer {
     background-image: url(../img/fondo.jpg);
     text-align: center;
+    width: 100%;
+    margin: 0 auto;
     color: rgb(255, 255, 255);
 }
 
@@ -156,10 +158,20 @@
 
 }
 
+iframe {
+    width: 98%;
+    height: 300px;
+    border: 3.2px solid var(--purple-color);
+    border-radius: 10px;
+}
 
 
-
-
+.info-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
 
 .emoji img {
     color: #00B2D1;
@@ -190,6 +202,20 @@
 }
 
 
+.tips h5 {
+    font-size: 2rem;
+    color: #752996;
+    text-align: center;
+    margin: 1rem;
+}
+
+.tips p {
+    color: var(--dark-color);
+    text-shadow: 1rem 1rem 1rem var(--gray-color);
+    text-align: center;
+}
+
+
 
 .me {
     margin-bottom: 10px;
@@ -210,7 +236,7 @@
     margin: 0 auto;
 }
 
-.card-body h4 {
+.card-body h2 {
     color: #752996;
     font-size: 20px;
     text-align: center;
@@ -218,7 +244,7 @@
     text-shadow: 2px 2px 2px rgb(128 128 128 / 54%);
 }
 
-.card-body h6 {
+.card-body h1 {
     color: black;
     font-size: 15px;
     text-align: center;
@@ -236,6 +262,23 @@
 
 
 
+
+.card-title.tipss {
+    color: #00B2B1;
+    font-weight: 700;
+}
+
+.cons {
+    font-size: 30px;
+    color: #00B2B1;
+    text-shadow: 1px 1px 2px #191919;
+}
+
+.btntips {
+    color: #00B2B1;
+    border-color: #00B2B1;
+    background-color: white;
+}
 
 
 
@@ -378,3 +421,14 @@
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+
+
+
+
+

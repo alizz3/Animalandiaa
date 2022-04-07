@@ -69,7 +69,7 @@
         </header>
     </div>
 
-  <!--NavBar-->
+    <!--NavBar-->
 
     <nav class="navbar navbar-expand-lg navbar sticky-top">
         <div class="container-fluid">
@@ -97,7 +97,7 @@
 
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="index.html">Home</a>
                     </li>
 
 
@@ -107,7 +107,13 @@
                             Equipo
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">cirujanos</a></li>
+
+
+                            <li><a class="dropdown-item" href="equipo.html">Equipo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="equipo.html">cirujanos</a></li>
                             <li><a class="dropdown-item" href="#">veterinarios</a></li>
                             <li><a class="dropdown-item" href="#">Estilistas Caninos</a></li>
                             <li>
@@ -123,11 +129,12 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Agenda tu cita</a>
+                        <a class="nav-link" href="tips.html">Tips</a>
                     </li>
 
+
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contáctenos</a>
+                        <a class="nav-link" href="contacto.html">Contáctenos</a>
                     </li>
 
 
@@ -150,7 +157,6 @@
         </div>
     </nav>
 
-
     <div class="banner-desktop">
         <img src="img/banner-2.png" class="img-fluid" alt="">
     </div>
@@ -163,64 +169,41 @@
     <h2 class="tseccion text-center mb-4">Nuestro Equipo</h2>
 
 
-    <section class="nuestro-equipo mx-auto ">
+    <div class="card-group">
+        <div class="card doctor">
+            <img src="img/medico1.jpg" class="card-img-top mx-auto my-3 rounded-circle" alt="...">
+            <div class="card-body">
+                <h2 class="card-title">Mario Paez</h2>
+                <h1 class="card-title">Especialista en Aves</h1>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio praesentium rem
+                    cupiditate voluptatum temporibus unde.</p>
+            </div>
 
-        <div class="row justify-content-lg-around mx-auto">
-            <div class="card mt-3" style="width: 18rem;">
-                <img src="img/medico1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4>Mario Perez</h4>
-                    <h6>Especialista en aves</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi ea amet quasi ad quisquam.</p>
-                </div>
+        </div>
+        <div class="card doctor">
+            <img src="img/medico2.jpg" class="card-img-top img-fluid mx-auto my-3 rounded-circle" alt="...">
+            <div class="card-body">
+                <h2 class="card-title"> Mario Paez</h2>
+                <h1 class="card-title">Especialista en Aves</h1>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga obcaecati, iusto hic
+                    minus nihil ex?</p>
             </div>
-            <div class="card mt-3" style="width: 18rem;">
-                <img src="img/medico2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4>Sophia Perez</h4>
-                    <h6>Especialista en aves</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi ea amet quasi ad quisquam.</p>
-                </div>
-            </div>
-            <div class="card mt-3" style="width: 18rem;">
-                <img src="img/medico1.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4>Mario Perez</h4>
-                    <h6>Especialista en aves</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi ea amet quasi ad quisquam.</p>
-                </div>
-            </div>
-            <div class="card mt-3" style="width: 18rem;">
-                <img src="img/medico2.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h4>Sophia Perez</h4>
-                    <h6>Especialista en aves</h6>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nisi ea amet quasi ad quisquam.</p>
-                </div>
+
+        </div>
+        <div class="card doctor">
+            <img src="img/medico1.jpg" class="card-img-top mx-auto my-3 rounded-circle" alt="...">
+            <div class="card-body">
+                <h2 class="card-title">Mario Paez</h2>
+                <h1 class="card-title">Especialista en Aves</h1>
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem quia
+                    reprehenderit magni minima recusandae.</p>
             </div>
         </div>
-    </section>
+    </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
     <footer>
         <div class="conteiner-fluid">
@@ -263,7 +246,7 @@
     <script src="js/bootstrap.js"></script>
 
 
-            <!--Boostrap Cdn
+    <!--Boostrap Cdn
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
