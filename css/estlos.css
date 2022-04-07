@@ -160,6 +160,60 @@
 
 
 
+
+.emoji img{
+    color: #00B2D1;
+    width: calc(1.325rem + 4vw);
+    margin-bottom: 1rem;
+}
+
+.formulas{
+    margin-top: 50px;
+    background: url(../img/fondo.jpg) rgba(216, 1, 1, 0.616);
+    padding: 1rem;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.616);
+}
+
+.button{
+    margin-top: 10px;
+}
+
+
+.remember-me{
+    margin-top: 10px;
+}
+
+.remember-me a{
+    color: rgb(255, 255, 255);
+}
+
+
+
+.me{
+    margin-bottom: 10px;
+}
+
+.button-back {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 992px) {
     .mobile {
         display: none;
