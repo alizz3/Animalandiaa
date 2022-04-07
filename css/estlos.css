@@ -115,6 +115,43 @@
     display: none;
 }
 
+ /*servicios*/
+
+ .tseccion{
+    box-sizing: border-box;
+    margin-top: 1rem;
+    line-height: 1.2;
+    font-size: calc(1.325rem + 2vw);
+    margin-bottom: 1.5rem !important;
+    text-align: center !important;
+    color: var(--purple-color);
+    font-weight: 600;
+    text-shadow: 2px 2px 4px #414141;
+    
+    }
+    
+.card img{
+    max-width: 210px;
+}
+
+.card-title{
+    margin-bottom: 0.5rem;
+    color: rgb(117,41,149);
+}
+
+.card{
+    border: none;
+}
+
+.row{
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
 
 
 
@@ -171,3 +208,15 @@
     margin-bottom: 10px;
     border: 7px solid rgb(0, 0, 0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
