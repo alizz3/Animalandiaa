@@ -162,11 +162,12 @@
     text-align: center;
 }
 
-#gratis{
+.perro{
     color:rgb(255, 255, 255);
 }
 
-#gratis img{
+.perro img{
     border-radius: 150px;
+    margin-bottom: 10px;
     border: 7px solid rgb(0, 0, 0);
 }
