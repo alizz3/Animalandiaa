@@ -202,11 +202,37 @@
 
 
 
+.card img {
+    max-width: 200px;
+}
+.card-img-top {
+    border-radius: 100px;
+    margin: 0 auto;
+}
 
+.card-body h4 {
+    color: #752996;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(128 128 128 / 54%);
+}
 
+.card-body h6 {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(128 128 128 / 54%);
+}
 
+.card-body p{
+    text-align: center;
+}
 
-
+.banner-desktop{
+    display: none;
+}
 
 
 
@@ -220,6 +246,14 @@
     }
 
     .desktop {
+        display: initial;
+    }
+
+    .banner-mobile{
+        display: none;
+    }
+
+    .banner-desktop{
         display: initial;
     }
 }
@@ -324,4 +358,10 @@
     padding: 30px;
     text-align: center;
     text-align: justify;
+}
+
+
+
+.nuestro-equipo{
+    margin: 0 auto;
 }
