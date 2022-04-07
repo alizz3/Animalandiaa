@@ -115,9 +115,9 @@
     display: none;
 }
 
- /*servicios*/
+/*servicios*/
 
- .tseccion{
+.tseccion {
     box-sizing: border-box;
     margin-top: 1rem;
     line-height: 1.2;
@@ -127,30 +127,30 @@
     color: var(--purple-color);
     font-weight: 600;
     text-shadow: 2px 2px 4px #414141;
-    
-    }
-    
-.card img{
+
+}
+
+.card img {
     max-width: 210px;
 }
 
-.card-title{
+.card-title {
     margin-bottom: 0.5rem;
-    color: rgb(117,41,149);
+    color: rgb(117, 41, 149);
 }
 
 
-.card{
+.card {
     border: none;
 }
 
-.footer{
+.footer {
     background-image: url(../img/fondo.jpg);
     text-align: center;
     color: rgb(255, 255, 255);
 }
 
-.foot{
+.foot {
     background-color: rgba(117, 41, 149, 0.404);
     padding: 1rem;
 
@@ -161,13 +161,13 @@
 
 
 
-.emoji img{
+.emoji img {
     color: #00B2D1;
     width: calc(1.325rem + 4vw);
     margin-bottom: 1rem;
 }
 
-.formulas{
+.formulas {
     margin-top: 50px;
     background: url(../img/fondo.jpg) rgba(216, 1, 1, 0.616);
     padding: 1rem;
@@ -176,22 +176,22 @@
     box-shadow: 4px 5px 15px rgba(0, 0, 0, 0.616);
 }
 
-.button{
+.button {
     margin-top: 10px;
 }
 
 
-.remember-me{
+.remember-me {
     margin-top: 10px;
 }
 
-.remember-me a{
+.remember-me a {
     color: rgb(255, 255, 255);
 }
 
 
 
-.me{
+.me {
     margin-bottom: 10px;
 }
 
@@ -243,24 +243,24 @@
     background-image: url(../img/fondo.jpg);
 }
 
-.agenda{
+.agenda {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.right-promo{
+.right-promo {
     margin-top: 20px;
     background-color: rgb(117, 41, 149);
     text-align: center;
 }
 
-.perro{
-    color:rgb(255, 255, 255);
+.perro {
+    color: rgb(255, 255, 255);
 }
 
-.perro img{
+.perro img {
     border-radius: 150px;
     margin-bottom: 10px;
     border: 7px solid rgb(0, 0, 0);
@@ -272,8 +272,56 @@
 
 
 
+#dashboard {
+    display: flex;
+}
 
 
+.menu-dash {
+    flex-basis: 20%;
+    background-color: #191919;
+    height: 88vh;
+}
 
+.menu-dash ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
 
+.menu-dash a {
+    color: #F3F3F3;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    font-family: 'Lato', sans-serif;
+}
 
+.menu-dash a:hover {
+    background-color: #00B2B1;
+    border-left: 3px solid #fff;
+    padding-left: 40px;
+    transition: all 2s;
+    font-weight: 600;
+}
+
+.menu-dash i {
+    margin: 5px
+}
+
+.contenido {
+    flex-basis: 80%;
+    background-color: #F3F3F3;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.contenido p {
+    flex-basis: 80%;
+    background-color: none;
+    padding: 30px;
+    text-align: center;
+    text-align: justify;
+}
