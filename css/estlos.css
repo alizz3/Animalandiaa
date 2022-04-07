@@ -139,19 +139,22 @@
     color: rgb(117,41,149);
 }
 
+
 .card{
     border: none;
 }
 
-.row{
-    width: 90%;
-    margin: 0 auto;
+.footer{
+    background-image: url(../img/fondo.jpg);
+    text-align: center;
+    color: rgb(255, 255, 255);
 }
 
+.foot{
+    background-color: rgba(117, 41, 149, 0.404);
+    padding: 1rem;
 
-
-
-
+}
 
 
 
